@@ -1,0 +1,25 @@
+program persegi_bintang;
+uses crt;
+var
+  besar_persegi,i,j: integer;
+begin
+  clrscr;
+  writeln('##  Program Pascal Persegi Bintang  ##');
+  writeln('======================================');
+  writeln;
+ 
+  write('Input besar persegi: ');
+  readln(besar_persegi);
+  writeln;
+ 
+  for i := 1 to besar_persegi do
+  begin
+    for j := 1 to besar_persegi do
+    begin
+      write(' *');
+    end;
+  writeln;
+  end;
+ 
+  readln;
+end.
